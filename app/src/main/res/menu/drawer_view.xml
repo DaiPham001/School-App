@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Thông tin chung">
+            <menu>
+                <item
+                    android:id="@+id/ttsv"
+                    android:title="Thông tin sinh viên" />
+
+            </menu>
+        </item>
+        <item android:title="Học tập">
+
+            <menu>
+                <item
+                    android:id="@+id/kq"
+                    android:title="Kết quả học tập" />
+                <item android:id="@+id/lh"
+                    android:title="Lịch học"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/ic_user"
+            android:title="Danh Sách Ngành" />
+        <item android:title="Đăng ký học phần">
+            <menu>
+                <item
+                    android:id="@+id/dkthi"
+                    android:title="Đăng ký thí lại - thi cải thiên"/>
+            </menu>
+        </item>
+
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:id="@+id/add_user"
+                    android:title="Thêm thành viên"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/sub_pass"
+                    android:title="Đổi mật khẩu" />
+                <item
+                    android:id="@+id/logout"
+                    android:title="Đăng xuất" />
+            </menu>
+        </item>
+    </group>
+</menu>
